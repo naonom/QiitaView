@@ -1,0 +1,6 @@
+framework module Pods_QiitaView {
+  umbrella header "Pods-QiitaView-umbrella.h"
+
+  export *
+  module * { export * }
+}
