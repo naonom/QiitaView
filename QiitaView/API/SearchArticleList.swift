@@ -1,9 +1,11 @@
 //
-//  QiitaAPI.swift
+//  SearchArticleList.swift
 //  QiitaView
 //
-//  Created by Naoki Noma on 2020/09/23.
+//  Created by Naoki Noma on 2020/09/25.
 //
+
+import Foundation
 
 //http://qiita.com/api/v2/items?page=1&per_page=10
 
