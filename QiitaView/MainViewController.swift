@@ -13,15 +13,6 @@ class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let api = SearchArticleList()
-        Session.send(api){ result in
-            switch result {
-            case .success(let response):
-                print(response)
-            case .failure(let error):
-                print(error)
-            }
-        }
         // Do any additional setup after loading the view.
     }
 }
