@@ -7,6 +7,7 @@ target 'QiitaView' do
 
   # Pods for QiitaView
   pod 'APIKit', '~> 5.0'
+  pod 'SwiftGen'
   target 'QiitaViewTests' do
     inherit! :search_paths
     # Pods for testing
